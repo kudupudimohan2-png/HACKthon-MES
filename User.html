@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Interphase</title>
+
+        <style>
+            .all {
+                text-align: center;
+                font-style: italic;
+                
+               
+            }
+            .st 
+            {
+                color: white;
+                background-color: blue;
+                align-items: center;
+                text-decoration: solid;
+                cursor: pointer;
+            }
+
+             .stop 
+            {
+                color: white;
+                background-color: red;
+                align-items: center;
+                text-decoration: solid;
+                cursor: pointer;
+            }
+           
+        </style>
+
+    </head>
+    <body style="background-image: url();">
+        <div class="all">
+
+             <h2>Taskl</h2>
+        <p>Description</p>
+        <button class="st" onclick="document.getElementById('start1').innerHTML = new Date().toLocaleString();">start</button>
+         <div id="start1" style="margin-top: 10px;"></div>
+
+        <button class="stop" onclick="document.getElementById('stop1').innerHTML = new Date().toLocaleString();">stop</button>
+         <div id="stop1" style="margin-top: 10px;"></div>
+         <div  id="status"> Pending </div>
+
+            <h2>Task2</h2>
+        <p>Description</p>
+        <button class="st" onclick="document.getElementById('start2').innerHTML = new Date().toLocaleString();">start</button>
+        <div id="start2" style="margin-top: 10px;"></div>
+        <button class="stop" onclick="document.getElementById('stop2').innerHTML = new Date().toLocaleString();">stop</button>
+        <div id="stop2" style="margin-top: 10px;"></div>
+        <div  id="status"> Pending </div>
+        
+            <h2>Taskn</h2>
+        <p>Description</p>
+        <button class="st" onclick="document.getElementById('start3').innerHTML = new Date().toLocaleString();">start</button>
+        <div id="start3" style="margin-top: 10px;"></div>
+        <button class="stop" onclick="document.getElementById('stop3').innerHTML = new Date().toLocaleString();">stop</button>
+        <div id="stop3" style="margin-top: 10px;"></div>
+        <div  id="status"> Pending </div>
+
+
+        </div>
+           
+       
+    </body>
+</html>
